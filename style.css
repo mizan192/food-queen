@@ -49,7 +49,8 @@ body{
 
 .flexibility{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    height: 500px;
 }
 
 #firstSection-firstDiv{
@@ -66,10 +67,14 @@ width: 70%;
 }
 .half-width img{
     width: 80%;
+    padding-bottom: 320px;
+    padding-top: 20px;
+
 }
 
 .second-section{
     padding: 10px;
+    height: 500px;
 }
 
 #text-bold{
@@ -78,7 +83,50 @@ width: 70%;
     font-family: 'Rubik', sans-serif;
 }
 
+#why{
+    color:orangered;
+}
 
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( tomato,orange);
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+}
+#secondSec-firstDiv {
+    padding-top: 150px;
+}
+#secondSec-secondDiv{
+    /* background-color: red; */
+}
+#img1{
+    width: 70%;
+    height: auto;
+    top: 50%;
 
+}
+.thirdSection{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 
-
+}
+#div1{
+    width: 50%;
+}
+#img2{
+    width: 50%;
+    padding-left: 50px;
+position: relative;
+left: 50px;
+bottom: 50px;
+}
+#text2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.about{
+    font-weight: bold;
+    color: rgb(78, 74, 74);
+}
