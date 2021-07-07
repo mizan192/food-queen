@@ -45,12 +45,14 @@ body{
 .list li{
     display: inline;
     padding-inline: 20px;
+    text-decoration: none;
 }
-
+.thirdSection{
+    height: 500px;
+}
 .flexibility{
     display: flex;
     margin-bottom: 100px;
-    height: 500px;
 }
 
 #firstSection-firstDiv{
@@ -86,7 +88,11 @@ width: 70%;
 #why{
     color:orangered;
 }
-
+.link1{
+    text-decoration: none;
+    color: white;   
+    font-weight: bold;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient( tomato,orange);
@@ -115,7 +121,10 @@ width: 70%;
 #div1{
     width: 50%;
 }
-#img2{
+#div2{
+    width: 50%;
+}
+#img2{ 
     width: 50%;
     padding-left: 50px;
 position: relative;
@@ -129,4 +138,118 @@ bottom: 50px;
 .about{
     font-weight: bold;
     color: rgb(78, 74, 74);
+}
+
+.recipeDescription{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.recipe{
+    color: rgb(34, 4, 4);
+    text-align: left;
+    font-weight: bold;
+}
+.recipelist{
+    padding-left: 80px;
+
+}
+.foodImg{
+    /* height:235px; */
+}
+.recipi{
+    width:200px;
+    /* border : 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1; */
+}
+#myReci{
+    text-align: center;
+}
+#img3{
+    width: 70%;
+    border-radius: 20px;
+    height: 230px;
+}
+/* .chicken{
+    height: 235px;
+} */
+.recepi{
+    /* border: 7px whitesmoke; */
+    border-radius: 20px;
+    padding-right: 40px;
+    margin-right: 20px;
+    background-color:whitesmoke;
+    border-image-slice: 1;
+    
+}
+
+#burger{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+#eating{
+width: 30%;
+float: right;
+text-align: center;
+padding: 10px;
+}
+#chicekn{
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+.text3{
+    font-size: small;
+    text-align: left;
+}
+
+
+.fourthSec{
+ height: 600px;   
+ /* background-color: red; */
+}
+
+
+.link{
+    margin-top: 50px;
+    background-color: rgb(243, 243, 234);
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.divlink1{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.divlink2{
+    margin-left: 150px;
+}
+.divlink3{
+    margin-left: 300px;
+}
+.socialName{
+    padding-bottom: 10px;
+    font-size: small;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer h3{
+    color: darkgrey;
+}
+#fod{
+    color:orangered
+}
+footer p{
+    font-size: small;
 }
